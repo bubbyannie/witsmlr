@@ -1,6 +1,6 @@
 {
   "name": "witsmlr",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library to convert WITML (xml-based) data to a cleaner (hopefully) JSON format.",
   "main": "index.js",
   "scripts": {
