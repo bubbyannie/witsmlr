@@ -1,0 +1,20 @@
+{
+  "name": "witsmlr",
+  "version": "0.0.1",
+  "description": "A simple library to convert WITML (xml-based) data to a cleaner (hopefully) JSON format.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha tests/index.js"
+  },
+  "author": "Kenny McGarvey",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.1",
+    "should": "^6.0.3"
+  },
+  "dependencies": {
+    "object-assign": "^3.0.0"
+  }
+}

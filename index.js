@@ -1,0 +1,1 @@
+var witsmlr = module.exports = require('./lib/witsmlr');
