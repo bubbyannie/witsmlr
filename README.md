@@ -66,5 +66,7 @@ npm install -g gulp
 
 npm install -g mocha
 
+npm install
+
 npm test
 ```

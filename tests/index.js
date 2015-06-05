@@ -39,7 +39,7 @@ describe('witsmlr', function() {
 	});
 
 	describe('witsmlr(filepath)', function(done) {
-		var promise = witsmlr('./tests/samples/Lagmud_183KKJH14.xml')
+		var promise = witsmlr('./tests/samples/log.xml')
 
 		it('should resolve with data', function(done) {
 			promise.then(function(data) {
@@ -72,6 +72,13 @@ describe('witsmlr', function() {
 		it('should contain uidSource', function(done) {
 			promise.then(function(data) {
 				data.uidSource.should.be.ok;
+				done();
+			});
+		});
+
+		it('should contain commonData', function(done) {
+			promise.then(function(data) {
+				data.commonData.should.be.an.Object;
 				done();
 			});
 		});
